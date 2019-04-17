@@ -1,4 +1,5 @@
 ### install regular packages
+options(repos = "http://cran.us.r-project.org")
 
 install.packages("reticulate") # python support in RMarkdown
 install.packages("ggplot2") # for plotting
